@@ -70,7 +70,10 @@ p {
 .header img.shadow {
   position: absolute;
   /* top: -185px; */
-  top: -85px;
+  top: -40px;
+
+  width: 240px;
+  height: 145px;
 
   margin-left: auto;
   margin-right: auto;
@@ -179,7 +182,7 @@ p {
     height: 230px;
 
     top: 220px;
-    left: -120px;
+    left: -420px;
   }
   .faq {
     padding-top: 65px;
