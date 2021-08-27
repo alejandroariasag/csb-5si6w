@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  --very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --dark-grayish-blue: hsl(240, 6%, 50%);
+  --light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#b068e9),
+      to(#6463e7)
+    )
+    fixed;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+p {
+  margin: 0px;
+
+  color: var(--dark-grayish-blue);
+  font-size: 12px;
+  line-height: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  width: 90%;
+  margin-top: 148px;
+
+  background-color: white;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+}
+
+.header {
+  position: relative;
+  height: 100px;
+}
+
+.header img {
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+  top: -100px;
+  width: 237px;
+  height: 180px;
+  z-index: 2;
+}
+
+.header img.shadow {
+  position: absolute;
+  /* top: -185px; */
+  top: -85px;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+  z-index: 1;
+}
+.faq {
+  padding: 0 24px 48px 24px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  width: 100%;
+
+  text-align: left;
+
+  background-color: white;
+
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+
+  border-bottom: 1px solid #e8e8ea;
+
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.active {
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  font-weight: bold;
+}
+
+.accordion:hover {
+  color: #f47b56;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 12px 0 0px 0;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+
+  max-height: 100px;
+
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: url("images/icon-arrow-down.svg");
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: url("images/icon-arrow-down.svg");
+  transform: rotate(180deg);
+}
+.box {
+  display: none;
+}
+@media (min-width: 1140px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  h1 {
+    text-align: left;
+    margin-bottom: 23px;
+  }
+  .container {
+    margin-top: 129px;
+    width: 920px;
+    min-height: 509px;
+    flex-direction: row;
+  }
+
+  .header {
+    width: calc(920px / 2);
+
+    background-image: url("images/bg-pattern-desktop.svg");
+  }
+
+  .header img {
+    left: -100px;
+    top: 70px;
+    width: 472px;
+    height: 359px;
+  }
+
+  .header img.shadow {
+    top: 180px;
+    left: -590px;
+
+    height: 568px;
+    width: 964px;
+  }
+  .header img.box {
+    display: inherit;
+    position: absolute;
+    width: 230px;
+    height: 230px;
+
+    top: 220px;
+    left: -120px;
+  }
+  .faq {
+    padding-top: 65px;
+    width: calc(920px / 2);
+  }
+}
