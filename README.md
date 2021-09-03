@@ -40,4 +40,4 @@ Users should be able to:
 
 ## Author
 
-- Website - Under construction.
+- Website - (The Quiff Republic) [https://thequiffrepublic.com]
