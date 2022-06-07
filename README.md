@@ -2,7 +2,7 @@
 
 This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![Screenshot](https://github.com/alejandroariasag/csb-5si6w/blob/gh-pages/images/screenshot.png?raw=true)
+![Screenshot](https://github.com/aleckbeu/FAQ-accordion-card/blob/gh-pages/images/screenshot.png?raw=true)
 
 ## Table of contents
 
@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: https://github.com/alejandroariasag/csb-5si6w/
-- Live Site URL: https://alejandroariasag.github.io/csb-5si6w/
+- GitHub URL: https://github.com/aleckbeu/FAQ-accordion-card/
+- Live Site URL: https://aleckbeu.github.io/FAQ-accordion-card/
 
 ## My process
 
